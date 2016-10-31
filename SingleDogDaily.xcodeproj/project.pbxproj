@@ -1,552 +1,1519 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		6500F1761DC6ED770054A4AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6500F1751DC6ED770054A4AC /* AppDelegate.swift */; };
-		6500F1781DC6ED770054A4AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6500F1771DC6ED770054A4AC /* ViewController.swift */; };
-		6500F17B1DC6ED770054A4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6500F1791DC6ED770054A4AC /* Main.storyboard */; };
-		6500F17E1DC6ED770054A4AC /* SingleDogDaily.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6500F17C1DC6ED770054A4AC /* SingleDogDaily.xcdatamodeld */; };
-		6500F1801DC6ED770054A4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6500F17F1DC6ED770054A4AC /* Assets.xcassets */; };
-		6500F1831DC6ED770054A4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6500F1811DC6ED770054A4AC /* LaunchScreen.storyboard */; };
-		6500F18E1DC6ED770054A4AC /* SingleDogDailyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6500F18D1DC6ED770054A4AC /* SingleDogDailyTests.swift */; };
-		6500F1991DC6ED770054A4AC /* SingleDogDailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6500F1981DC6ED770054A4AC /* SingleDogDailyUITests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6500F18A1DC6ED770054A4AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6500F16A1DC6ED770054A4AC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6500F1711DC6ED770054A4AC;
-			remoteInfo = SingleDogDaily;
-		};
-		6500F1951DC6ED770054A4AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6500F16A1DC6ED770054A4AC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6500F1711DC6ED770054A4AC;
-			remoteInfo = SingleDogDaily;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		6500F1721DC6ED770054A4AC /* SingleDogDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleDogDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6500F1751DC6ED770054A4AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6500F1771DC6ED770054A4AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6500F17A1DC6ED770054A4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6500F17D1DC6ED770054A4AC /* SingleDogDaily.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SingleDogDaily.xcdatamodel; sourceTree = "<group>"; };
-		6500F17F1DC6ED770054A4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6500F1821DC6ED770054A4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6500F1841DC6ED770054A4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6500F1891DC6ED770054A4AC /* SingleDogDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleDogDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6500F18D1DC6ED770054A4AC /* SingleDogDailyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDogDailyTests.swift; sourceTree = "<group>"; };
-		6500F18F1DC6ED770054A4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6500F1941DC6ED770054A4AC /* SingleDogDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleDogDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6500F1981DC6ED770054A4AC /* SingleDogDailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDogDailyUITests.swift; sourceTree = "<group>"; };
-		6500F19A1DC6ED770054A4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		6500F16F1DC6ED770054A4AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6500F1861DC6ED770054A4AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6500F1911DC6ED770054A4AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		6500F1691DC6ED770054A4AC = {
-			isa = PBXGroup;
-			children = (
-				6500F1741DC6ED770054A4AC /* SingleDogDaily */,
-				6500F18C1DC6ED770054A4AC /* SingleDogDailyTests */,
-				6500F1971DC6ED770054A4AC /* SingleDogDailyUITests */,
-				6500F1731DC6ED770054A4AC /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		6500F1731DC6ED770054A4AC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6500F1721DC6ED770054A4AC /* SingleDogDaily.app */,
-				6500F1891DC6ED770054A4AC /* SingleDogDailyTests.xctest */,
-				6500F1941DC6ED770054A4AC /* SingleDogDailyUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6500F1741DC6ED770054A4AC /* SingleDogDaily */ = {
-			isa = PBXGroup;
-			children = (
-				6500F1751DC6ED770054A4AC /* AppDelegate.swift */,
-				6500F1771DC6ED770054A4AC /* ViewController.swift */,
-				6500F1791DC6ED770054A4AC /* Main.storyboard */,
-				6500F17F1DC6ED770054A4AC /* Assets.xcassets */,
-				6500F1811DC6ED770054A4AC /* LaunchScreen.storyboard */,
-				6500F1841DC6ED770054A4AC /* Info.plist */,
-				6500F17C1DC6ED770054A4AC /* SingleDogDaily.xcdatamodeld */,
-			);
-			path = SingleDogDaily;
-			sourceTree = "<group>";
-		};
-		6500F18C1DC6ED770054A4AC /* SingleDogDailyTests */ = {
-			isa = PBXGroup;
-			children = (
-				6500F18D1DC6ED770054A4AC /* SingleDogDailyTests.swift */,
-				6500F18F1DC6ED770054A4AC /* Info.plist */,
-			);
-			path = SingleDogDailyTests;
-			sourceTree = "<group>";
-		};
-		6500F1971DC6ED770054A4AC /* SingleDogDailyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6500F1981DC6ED770054A4AC /* SingleDogDailyUITests.swift */,
-				6500F19A1DC6ED770054A4AC /* Info.plist */,
-			);
-			path = SingleDogDailyUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		6500F1711DC6ED770054A4AC /* SingleDogDaily */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6500F19D1DC6ED770054A4AC /* Build configuration list for PBXNativeTarget "SingleDogDaily" */;
-			buildPhases = (
-				6500F16E1DC6ED770054A4AC /* Sources */,
-				6500F16F1DC6ED770054A4AC /* Frameworks */,
-				6500F1701DC6ED770054A4AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SingleDogDaily;
-			productName = SingleDogDaily;
-			productReference = 6500F1721DC6ED770054A4AC /* SingleDogDaily.app */;
-			productType = "com.apple.product-type.application";
-		};
-		6500F1881DC6ED770054A4AC /* SingleDogDailyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6500F1A01DC6ED770054A4AC /* Build configuration list for PBXNativeTarget "SingleDogDailyTests" */;
-			buildPhases = (
-				6500F1851DC6ED770054A4AC /* Sources */,
-				6500F1861DC6ED770054A4AC /* Frameworks */,
-				6500F1871DC6ED770054A4AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6500F18B1DC6ED770054A4AC /* PBXTargetDependency */,
-			);
-			name = SingleDogDailyTests;
-			productName = SingleDogDailyTests;
-			productReference = 6500F1891DC6ED770054A4AC /* SingleDogDailyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6500F1931DC6ED770054A4AC /* SingleDogDailyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6500F1A31DC6ED770054A4AC /* Build configuration list for PBXNativeTarget "SingleDogDailyUITests" */;
-			buildPhases = (
-				6500F1901DC6ED770054A4AC /* Sources */,
-				6500F1911DC6ED770054A4AC /* Frameworks */,
-				6500F1921DC6ED770054A4AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6500F1961DC6ED770054A4AC /* PBXTargetDependency */,
-			);
-			name = SingleDogDailyUITests;
-			productName = SingleDogDailyUITests;
-			productReference = 6500F1941DC6ED770054A4AC /* SingleDogDailyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		6500F16A1DC6ED770054A4AC /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = Tommy;
-				TargetAttributes = {
-					6500F1711DC6ED770054A4AC = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 33T2QK6H57;
-						ProvisioningStyle = Automatic;
-					};
-					6500F1881DC6ED770054A4AC = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 33T2QK6H57;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 6500F1711DC6ED770054A4AC;
-					};
-					6500F1931DC6ED770054A4AC = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 33T2QK6H57;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 6500F1711DC6ED770054A4AC;
-					};
-				};
-			};
-			buildConfigurationList = 6500F16D1DC6ED770054A4AC /* Build configuration list for PBXProject "SingleDogDaily" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 6500F1691DC6ED770054A4AC;
-			productRefGroup = 6500F1731DC6ED770054A4AC /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				6500F1711DC6ED770054A4AC /* SingleDogDaily */,
-				6500F1881DC6ED770054A4AC /* SingleDogDailyTests */,
-				6500F1931DC6ED770054A4AC /* SingleDogDailyUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		6500F1701DC6ED770054A4AC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6500F1831DC6ED770054A4AC /* LaunchScreen.storyboard in Resources */,
-				6500F1801DC6ED770054A4AC /* Assets.xcassets in Resources */,
-				6500F17B1DC6ED770054A4AC /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6500F1871DC6ED770054A4AC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6500F1921DC6ED770054A4AC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		6500F16E1DC6ED770054A4AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6500F17E1DC6ED770054A4AC /* SingleDogDaily.xcdatamodeld in Sources */,
-				6500F1781DC6ED770054A4AC /* ViewController.swift in Sources */,
-				6500F1761DC6ED770054A4AC /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6500F1851DC6ED770054A4AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6500F18E1DC6ED770054A4AC /* SingleDogDailyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6500F1901DC6ED770054A4AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6500F1991DC6ED770054A4AC /* SingleDogDailyUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6500F18B1DC6ED770054A4AC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6500F1711DC6ED770054A4AC /* SingleDogDaily */;
-			targetProxy = 6500F18A1DC6ED770054A4AC /* PBXContainerItemProxy */;
-		};
-		6500F1961DC6ED770054A4AC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6500F1711DC6ED770054A4AC /* SingleDogDaily */;
-			targetProxy = 6500F1951DC6ED770054A4AC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6500F1791DC6ED770054A4AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6500F17A1DC6ED770054A4AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6500F1811DC6ED770054A4AC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6500F1821DC6ED770054A4AC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		6500F19B1DC6ED770054A4AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		6500F19C1DC6ED770054A4AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6500F19E1DC6ED770054A4AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 33T2QK6H57;
-				INFOPLIST_FILE = SingleDogDaily/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tommy.demo.singledogdaily.SingleDogDaily;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		6500F19F1DC6ED770054A4AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 33T2QK6H57;
-				INFOPLIST_FILE = SingleDogDaily/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tommy.demo.singledogdaily.SingleDogDaily;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		6500F1A11DC6ED770054A4AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 33T2QK6H57;
-				INFOPLIST_FILE = SingleDogDailyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tommy.demo.singledogdaily.SingleDogDailyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingleDogDaily.app/SingleDogDaily";
-			};
-			name = Debug;
-		};
-		6500F1A21DC6ED770054A4AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 33T2QK6H57;
-				INFOPLIST_FILE = SingleDogDailyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tommy.demo.singledogdaily.SingleDogDailyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingleDogDaily.app/SingleDogDaily";
-			};
-			name = Release;
-		};
-		6500F1A41DC6ED770054A4AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 33T2QK6H57;
-				INFOPLIST_FILE = SingleDogDailyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tommy.demo.singledogdaily.SingleDogDailyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = SingleDogDaily;
-			};
-			name = Debug;
-		};
-		6500F1A51DC6ED770054A4AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 33T2QK6H57;
-				INFOPLIST_FILE = SingleDogDailyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tommy.demo.singledogdaily.SingleDogDailyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = SingleDogDaily;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		6500F16D1DC6ED770054A4AC /* Build configuration list for PBXProject "SingleDogDaily" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6500F19B1DC6ED770054A4AC /* Debug */,
-				6500F19C1DC6ED770054A4AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6500F19D1DC6ED770054A4AC /* Build configuration list for PBXNativeTarget "SingleDogDaily" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6500F19E1DC6ED770054A4AC /* Debug */,
-				6500F19F1DC6ED770054A4AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		6500F1A01DC6ED770054A4AC /* Build configuration list for PBXNativeTarget "SingleDogDailyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6500F1A11DC6ED770054A4AC /* Debug */,
-				6500F1A21DC6ED770054A4AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		6500F1A31DC6ED770054A4AC /* Build configuration list for PBXNativeTarget "SingleDogDailyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6500F1A41DC6ED770054A4AC /* Debug */,
-				6500F1A51DC6ED770054A4AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		6500F17C1DC6ED770054A4AC /* SingleDogDaily.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				6500F17D1DC6ED770054A4AC /* SingleDogDaily.xcdatamodel */,
-			);
-			currentVersion = 6500F17D1DC6ED770054A4AC /* SingleDogDaily.xcdatamodel */;
-			path = SingleDogDaily.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
-	};
-	rootObject = 6500F16A1DC6ED770054A4AC /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0FDA9C0AD59FE351B590310A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SingleDogDaily.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SingleDogDaily/Pods-SingleDogDaily.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>16FE1B1C212C892D27315D0A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SingleDogDailyUITests/Pods-SingleDogDailyUITests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>2CF8071002618C63874954EA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SingleDogDailyUITests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SingleDogDailyUITests/Pods-SingleDogDailyUITests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4EC60BDEB27885E8CE8E89D6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>80FAE9DED6F82557F9AC8577</string>
+				<string>0FDA9C0AD59FE351B590310A</string>
+				<string>7E383E69455363E064276F7A</string>
+				<string>D758EAAD6F41741F5E903488</string>
+				<string>2CF8071002618C63874954EA</string>
+				<string>EF410407173B05F0CEF64315</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5733EE84AFFC0175BA4D61F9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AE418D5CD88D3E192545D259</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6500F1691DC6ED770054A4AC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6500F1A61DC6EE8D0054A4AC</string>
+				<string>6500F1A81DC6EECB0054A4AC</string>
+				<string>6500F1741DC6ED770054A4AC</string>
+				<string>6500F18C1DC6ED770054A4AC</string>
+				<string>6500F1971DC6ED770054A4AC</string>
+				<string>6500F1731DC6ED770054A4AC</string>
+				<string>4EC60BDEB27885E8CE8E89D6</string>
+				<string>6C2238A7BB411B6CB909CE1B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F16A1DC6ED770054A4AC</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0800</string>
+				<key>LastUpgradeCheck</key>
+				<string>0800</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Tommy</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>6500F1711DC6ED770054A4AC</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.0</string>
+						<key>DevelopmentTeam</key>
+						<string>33T2QK6H57</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+					</dict>
+					<key>6500F1881DC6ED770054A4AC</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.0</string>
+						<key>DevelopmentTeam</key>
+						<string>33T2QK6H57</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+						<key>TestTargetID</key>
+						<string>6500F1711DC6ED770054A4AC</string>
+					</dict>
+					<key>6500F1931DC6ED770054A4AC</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.0</string>
+						<key>DevelopmentTeam</key>
+						<string>33T2QK6H57</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+						<key>TestTargetID</key>
+						<string>6500F1711DC6ED770054A4AC</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>6500F16D1DC6ED770054A4AC</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>6500F1691DC6ED770054A4AC</string>
+			<key>productRefGroup</key>
+			<string>6500F1731DC6ED770054A4AC</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>6500F1711DC6ED770054A4AC</string>
+				<string>6500F1881DC6ED770054A4AC</string>
+				<string>6500F1931DC6ED770054A4AC</string>
+			</array>
+		</dict>
+		<key>6500F16D1DC6ED770054A4AC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6500F19B1DC6ED770054A4AC</string>
+				<string>6500F19C1DC6ED770054A4AC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>6500F16E1DC6ED770054A4AC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6500F17E1DC6ED770054A4AC</string>
+				<string>6500F1781DC6ED770054A4AC</string>
+				<string>6500F1761DC6ED770054A4AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6500F16F1DC6ED770054A4AC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5733EE84AFFC0175BA4D61F9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6500F1701DC6ED770054A4AC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6500F1A91DC6EECB0054A4AC</string>
+				<string>6500F1831DC6ED770054A4AC</string>
+				<string>6500F1801DC6ED770054A4AC</string>
+				<string>6500F1A71DC6EE8D0054A4AC</string>
+				<string>6500F17B1DC6ED770054A4AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6500F1711DC6ED770054A4AC</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6500F19D1DC6ED770054A4AC</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D6FB96B0C907C7A48C7E8D50</string>
+				<string>6500F16E1DC6ED770054A4AC</string>
+				<string>6500F16F1DC6ED770054A4AC</string>
+				<string>6500F1701DC6ED770054A4AC</string>
+				<string>A353D33615D6B74A71990372</string>
+				<string>B7F0428273B8DD0BFB5BEE4A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SingleDogDaily</string>
+			<key>productName</key>
+			<string>SingleDogDaily</string>
+			<key>productReference</key>
+			<string>6500F1721DC6ED770054A4AC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>6500F1721DC6ED770054A4AC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SingleDogDaily.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6500F1731DC6ED770054A4AC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6500F1721DC6ED770054A4AC</string>
+				<string>6500F1891DC6ED770054A4AC</string>
+				<string>6500F1941DC6ED770054A4AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1741DC6ED770054A4AC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6500F1751DC6ED770054A4AC</string>
+				<string>6500F1771DC6ED770054A4AC</string>
+				<string>6500F1791DC6ED770054A4AC</string>
+				<string>6500F17F1DC6ED770054A4AC</string>
+				<string>6500F1811DC6ED770054A4AC</string>
+				<string>6500F1841DC6ED770054A4AC</string>
+				<string>6500F17C1DC6ED770054A4AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SingleDogDaily</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1751DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1761DC6ED770054A4AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6500F1751DC6ED770054A4AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6500F1771DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1781DC6ED770054A4AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6500F1771DC6ED770054A4AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6500F1791DC6ED770054A4AC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6500F17A1DC6ED770054A4AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F17A1DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F17B1DC6ED770054A4AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6500F1791DC6ED770054A4AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6500F17C1DC6ED770054A4AC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6500F17D1DC6ED770054A4AC</string>
+			</array>
+			<key>currentVersion</key>
+			<string>6500F17D1DC6ED770054A4AC</string>
+			<key>isa</key>
+			<string>XCVersionGroup</string>
+			<key>path</key>
+			<string>SingleDogDaily.xcdatamodeld</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+			<key>versionGroupType</key>
+			<string>wrapper.xcdatamodel</string>
+		</dict>
+		<key>6500F17D1DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.xcdatamodel</string>
+			<key>path</key>
+			<string>SingleDogDaily.xcdatamodel</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F17E1DC6ED770054A4AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6500F17C1DC6ED770054A4AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6500F17F1DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1801DC6ED770054A4AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6500F17F1DC6ED770054A4AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6500F1811DC6ED770054A4AC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6500F1821DC6ED770054A4AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1821DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1831DC6ED770054A4AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6500F1811DC6ED770054A4AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6500F1841DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1851DC6ED770054A4AC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6500F18E1DC6ED770054A4AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6500F1861DC6ED770054A4AC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A99F02F5F41976AC303E2254</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6500F1871DC6ED770054A4AC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6500F1881DC6ED770054A4AC</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6500F1A01DC6ED770054A4AC</string>
+			<key>buildPhases</key>
+			<array>
+				<string>B24859C51D30DC2E6A1DB04F</string>
+				<string>6500F1851DC6ED770054A4AC</string>
+				<string>6500F1861DC6ED770054A4AC</string>
+				<string>6500F1871DC6ED770054A4AC</string>
+				<string>F0527B2A8DEA6E35E04EC618</string>
+				<string>717BED9C55012385D6A70442</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>6500F18B1DC6ED770054A4AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SingleDogDailyTests</string>
+			<key>productName</key>
+			<string>SingleDogDailyTests</string>
+			<key>productReference</key>
+			<string>6500F1891DC6ED770054A4AC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>6500F1891DC6ED770054A4AC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SingleDogDailyTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6500F18A1DC6ED770054A4AC</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>6500F16A1DC6ED770054A4AC</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>6500F1711DC6ED770054A4AC</string>
+			<key>remoteInfo</key>
+			<string>SingleDogDaily</string>
+		</dict>
+		<key>6500F18B1DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>6500F1711DC6ED770054A4AC</string>
+			<key>targetProxy</key>
+			<string>6500F18A1DC6ED770054A4AC</string>
+		</dict>
+		<key>6500F18C1DC6ED770054A4AC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6500F18D1DC6ED770054A4AC</string>
+				<string>6500F18F1DC6ED770054A4AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SingleDogDailyTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F18D1DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>SingleDogDailyTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F18E1DC6ED770054A4AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6500F18D1DC6ED770054A4AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6500F18F1DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1901DC6ED770054A4AC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6500F1991DC6ED770054A4AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6500F1911DC6ED770054A4AC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>93E44C51EBAF6D4EAFD56360</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6500F1921DC6ED770054A4AC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6500F1931DC6ED770054A4AC</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6500F1A31DC6ED770054A4AC</string>
+			<key>buildPhases</key>
+			<array>
+				<string>F45EC605E9261FD6377771C9</string>
+				<string>6500F1901DC6ED770054A4AC</string>
+				<string>6500F1911DC6ED770054A4AC</string>
+				<string>6500F1921DC6ED770054A4AC</string>
+				<string>16FE1B1C212C892D27315D0A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>6500F1961DC6ED770054A4AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SingleDogDailyUITests</string>
+			<key>productName</key>
+			<string>SingleDogDailyUITests</string>
+			<key>productReference</key>
+			<string>6500F1941DC6ED770054A4AC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>6500F1941DC6ED770054A4AC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SingleDogDailyUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6500F1951DC6ED770054A4AC</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>6500F16A1DC6ED770054A4AC</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>6500F1711DC6ED770054A4AC</string>
+			<key>remoteInfo</key>
+			<string>SingleDogDaily</string>
+		</dict>
+		<key>6500F1961DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>6500F1711DC6ED770054A4AC</string>
+			<key>targetProxy</key>
+			<string>6500F1951DC6ED770054A4AC</string>
+		</dict>
+		<key>6500F1971DC6ED770054A4AC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6500F1981DC6ED770054A4AC</string>
+				<string>6500F19A1DC6ED770054A4AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SingleDogDailyUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1981DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>SingleDogDailyUITests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1991DC6ED770054A4AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6500F1981DC6ED770054A4AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6500F19A1DC6ED770054A4AC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F19B1DC6ED770054A4AC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
+				<string>DEBUG</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>6500F19C1DC6ED770054A4AC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Owholemodule</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6500F19D1DC6ED770054A4AC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6500F19E1DC6ED770054A4AC</string>
+				<string>6500F19F1DC6ED770054A4AC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>6500F19E1DC6ED770054A4AC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>80FAE9DED6F82557F9AC8577</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>33T2QK6H57</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SingleDogDaily/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>tommy.demo.singledogdaily.SingleDogDaily</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>6500F19F1DC6ED770054A4AC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0FDA9C0AD59FE351B590310A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>33T2QK6H57</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SingleDogDaily/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>tommy.demo.singledogdaily.SingleDogDaily</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6500F1A01DC6ED770054A4AC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6500F1A11DC6ED770054A4AC</string>
+				<string>6500F1A21DC6ED770054A4AC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>6500F1A11DC6ED770054A4AC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7E383E69455363E064276F7A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>33T2QK6H57</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SingleDogDailyTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>tommy.demo.singledogdaily.SingleDogDailyTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SingleDogDaily.app/SingleDogDaily</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>6500F1A21DC6ED770054A4AC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>D758EAAD6F41741F5E903488</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>33T2QK6H57</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SingleDogDailyTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>tommy.demo.singledogdaily.SingleDogDailyTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SingleDogDaily.app/SingleDogDaily</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6500F1A31DC6ED770054A4AC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6500F1A41DC6ED770054A4AC</string>
+				<string>6500F1A51DC6ED770054A4AC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>6500F1A41DC6ED770054A4AC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>2CF8071002618C63874954EA</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>33T2QK6H57</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SingleDogDailyUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>tommy.demo.singledogdaily.SingleDogDailyUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>SingleDogDaily</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>6500F1A51DC6ED770054A4AC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>EF410407173B05F0CEF64315</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>33T2QK6H57</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SingleDogDailyUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>tommy.demo.singledogdaily.SingleDogDailyUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>SingleDogDaily</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6500F1A61DC6EE8D0054A4AC</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Podfile</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1A71DC6EE8D0054A4AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6500F1A61DC6EE8D0054A4AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6500F1A81DC6EECB0054A4AC</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>.gitignore</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6500F1A91DC6EECB0054A4AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6500F1A81DC6EECB0054A4AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6C2238A7BB411B6CB909CE1B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>AE418D5CD88D3E192545D259</string>
+				<string>D222F72F4EE90B2166C9F2BC</string>
+				<string>F9A96344982F60C136F6ECBA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>717BED9C55012385D6A70442</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SingleDogDailyTests/Pods-SingleDogDailyTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>7E383E69455363E064276F7A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SingleDogDailyTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SingleDogDailyTests/Pods-SingleDogDailyTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>80FAE9DED6F82557F9AC8577</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SingleDogDaily.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SingleDogDaily/Pods-SingleDogDaily.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93E44C51EBAF6D4EAFD56360</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F9A96344982F60C136F6ECBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A353D33615D6B74A71990372</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SingleDogDaily/Pods-SingleDogDaily-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>A99F02F5F41976AC303E2254</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D222F72F4EE90B2166C9F2BC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AE418D5CD88D3E192545D259</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_SingleDogDaily.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B24859C51D30DC2E6A1DB04F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>B7F0428273B8DD0BFB5BEE4A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SingleDogDaily/Pods-SingleDogDaily-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>D222F72F4EE90B2166C9F2BC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_SingleDogDailyTests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D6FB96B0C907C7A48C7E8D50</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>D758EAAD6F41741F5E903488</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SingleDogDailyTests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SingleDogDailyTests/Pods-SingleDogDailyTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EF410407173B05F0CEF64315</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SingleDogDailyUITests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SingleDogDailyUITests/Pods-SingleDogDailyUITests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F0527B2A8DEA6E35E04EC618</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SingleDogDailyTests/Pods-SingleDogDailyTests-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>F45EC605E9261FD6377771C9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>F9A96344982F60C136F6ECBA</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_SingleDogDailyUITests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>6500F16A1DC6ED770054A4AC</string>
+</dict>
+</plist>
